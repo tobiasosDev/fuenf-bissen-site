@@ -1,0 +1,184 @@
+<!-- Vor Veröffentlichung: heilmittelrechtliche Prüfung (CH HMG/AWV, DE HWG) -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little Bowl: nutrition when your appetite is low</title>
+<meta name="description" content="Little Bowl is a nutrition companion for iPhone for people with low appetite, for example during GLP-1 therapy: protein in two taps, water in glasses, fiber, how you feel, and a report for your dietitian. No account; your data stays on your phone.">
+<link rel="alternate" hreflang="en" href="https://tobiasosdev.github.io/fuenf-bissen-site/">
+<link rel="alternate" hreflang="de" href="https://tobiasosdev.github.io/fuenf-bissen-site/de/">
+<meta property="og:title" content="Little Bowl: if you can only manage five bites, make every one count">
+<meta property="og:description" content="A calm nutrition companion for days with low appetite. Protein in two taps, water in glasses, fiber, and one report for your dietitian.">
+<meta property="og:image" content="https://tobiasosdev.github.io/fuenf-bissen-site/img/icon-512.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F6F1E9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1D1A" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap top">
+  <a class="lockup" href="./" aria-label="Little Bowl, home">
+    <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="32.2" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="50" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="67.8" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="41.1" cy="36.1" r="8.2" fill="#6A994E"/><circle cx="58.9" cy="36.1" r="8.2" fill="#6A994E"/><path d="M8 56 H92 A42 42 0 0 1 8 56 Z" fill="#C8553D"/></svg>
+    <span class="wordmark">Little Bowl</span>
+  </a>
+  <nav><a href="de/" hreflang="de" lang="de">Deutsch</a></nav>
+</header>
+
+<main id="main">
+  <section class="wrap hero">
+    <div class="hero-text">
+      <h1>If you can only manage five bites, make every one count.</h1>
+      <p class="lead">Little Bowl is a nutrition companion for people with low appetite, for example during GLP-1 therapy. Protein in two taps, water in glasses, fiber and how you feel. No calorie counting.</p>
+      <p class="made-with">Developed with a Swiss dietitian.</p>
+      <p class="store">
+        <!-- TODO: replace # with the App Store link once the app is live. -->
+        <a href="#">On the App Store</a>
+        <span>For iPhone, in English and German.</span>
+      </p>
+    </div>
+
+    <figure class="today" aria-label="Example: a day with five small portions">
+      <div class="today-head">
+        <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="32.2" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="50" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="67.8" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="41.1" cy="36.1" r="8.2" fill="#6A994E"/><circle cx="58.9" cy="36.1" r="8.2" fill="#6A994E"/><path d="M8 56 H92 A42 42 0 0 1 8 56 Z" fill="#C8553D"/></svg>
+        <h2>Today</h2>
+        <p>Five portions, every one counted</p>
+      </div>
+      <ol class="bites">
+        <li style="--i:0"><span class="n" aria-hidden="true">1</span><span class="food">Skyr</span><span class="lead-dots"></span><span class="g">16 g</span><span class="portion">150 g</span></li>
+        <li style="--i:1"><span class="n" aria-hidden="true">2</span><span class="food">Egg, boiled</span><span class="lead-dots"></span><span class="g">6.5 g</span><span class="portion">1 egg</span></li>
+        <li style="--i:2"><span class="n" aria-hidden="true">3</span><span class="food">Lentils, cooked</span><span class="lead-dots"></span><span class="g">13 g</span><span class="portion">150 g</span></li>
+        <li style="--i:3"><span class="n" aria-hidden="true">4</span><span class="food">Cottage cheese</span><span class="lead-dots"></span><span class="g">12 g</span><span class="portion">100 g</span></li>
+        <li style="--i:4"><span class="n" aria-hidden="true">5</span><span class="food">Almonds</span><span class="lead-dots"></span><span class="g">6 g</span><span class="portion">30 g</span></li>
+      </ol>
+      <div class="meters">
+        <div class="meter protein"><span class="label">Protein</span><span class="value">53.5 of 80 g</span><span class="bar" style="--p:.67" aria-hidden="true"><i></i></span></div>
+        <div class="meter water"><span class="label">Water</span><span class="value">5 of 8 glasses</span><span class="glasses" aria-hidden="true"><i class="full" style="--i:0"></i><i class="full" style="--i:1"></i><i class="full" style="--i:2"></i><i class="full" style="--i:3"></i><i class="full" style="--i:4"></i><i></i><i></i><i></i></span></div>
+        <div class="meter fibre"><span class="label">Fiber</span><span class="value">13.5 of 25 g</span><span class="bar" style="--p:.54" aria-hidden="true"><i></i></span></div>
+      </div>
+      <p class="today-foot">An example day. Grams of protein per portion.</p>
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="intro">
+        <h2>Small amounts, counted simply.</h2>
+        <p class="muted">When eating is hard, it helps to see what you managed. Everything here is free.</p>
+      </div>
+      <dl class="inside">
+        <div class="protein"><dt>Protein in two taps</dt><dd>Pick from a list of 43 everyday portions, from Greek yogurt to lentils. No calorie counting.</dd></div>
+        <div class="water"><dt>Water in glasses</dt><dd>One tap for each glass of 250 ml.</dd></div>
+        <div class="fibre"><dt>Fiber</dt><dd>Counted along with the portions you log.</dd></div>
+        <div><dt>Strength training</dt><dd>Note your strength sessions through the week.</dd></div>
+        <div><dt>How you feel</dt><dd>Note how you feel and any symptoms you have.</dd></div>
+        <div><dt>Your therapy plan</dt><dd>The medication, dose and rhythm your doctor prescribed, with a reminder, injection sites and your pen supply. The app records your plan; it never suggests a dose.</dd></div>
+        <div><dt>Weight and waist</dt><dd>For your own overview and your report. Daily steps from Apple Health are optional: read only, and only after you tap Connect Apple Health.</dd></div>
+        <div><dt>Tips for difficult days</dt><dd>General tips for days when eating is hard. The same for everyone, and no replacement for your dietitian.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="report">
+        <div class="report-text">
+          <h2>One report for your next appointment.</h2>
+          <p>Little Bowl turns what you logged into a PDF for your dietitian or doctor: doses, weight, protein, water, fiber, strength training, steps and how you felt.</p>
+          <p class="muted">Everything in it is what you entered yourself, shown without judging. It isn’t a diagnosis.</p>
+        </div>
+        <figure class="sheet" aria-label="Sketch of the PDF report">
+          <div class="sheet-head">
+            <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="32.2" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="50" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="67.8" cy="51.5" r="8.2" fill="#6A994E"/><circle cx="41.1" cy="36.1" r="8.2" fill="#6A994E"/><circle cx="58.9" cy="36.1" r="8.2" fill="#6A994E"/><path d="M8 56 H92 A42 42 0 0 1 8 56 Z" fill="#C8553D"/></svg>
+            <b>Nutrition and therapy report</b>
+          </div>
+          <ul>
+            <li style="--w:55%">Doses</li>
+            <li style="--w:80%">Weight</li>
+            <li class="protein" style="--w:67%">Protein</li>
+            <li class="water" style="--w:62%">Water</li>
+            <li class="fibre" style="--w:54%">Fiber</li>
+            <li style="--w:40%">Strength</li>
+            <li style="--w:72%">Steps</li>
+            <li style="--w:85%">How you felt</li>
+          </ul>
+          <p class="sheet-foot">Self-reported. Not a diagnosis and not a medical assessment.</p>
+        </figure>
+      </div>
+
+      <div class="swiss">
+        <div class="intro">
+          <h3>In Switzerland: ready for your control appointments.</h3>
+          <p class="muted">The Swiss insurance companion shows when the control appointments for your health insurance are due, so you can bring the report to each one.</p>
+        </div>
+        <ol class="controls">
+          <li><span class="stop" aria-hidden="true"></span><span class="when">Start</span><span class="what">The day your therapy begins, entered in Settings.</span></li>
+          <li><span class="stop" aria-hidden="true"></span><span class="when">Week 16</span><span class="what">The first control appointment.</span></li>
+          <li><span class="stop" aria-hidden="true"></span><span class="when">Month 10</span><span class="what">The second control appointment.</span></li>
+          <li><span class="stop" aria-hidden="true"></span><span class="when">Every 6 months</span><span class="what">The controls after that.</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="intro">
+        <h2>All tracking is free.</h2>
+      </div>
+      <div class="price">
+        <div>
+          <h3>Free</h3>
+          <p>All tracking, the reminders, the tips, backups and the CSV export. For good.</p>
+        </div>
+        <div>
+          <h3>Pro</h3>
+          <p class="amount">$29.99 a year after a free week, or $59.99 once</p>
+          <p>The PDF report and the Swiss insurance companion. The app reminds you two days before the free week ends. You buy and cancel through Apple.</p>
+          <p class="muted">US prices. Apple sets the price in your country; the App Store shows yours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="intro">
+        <h2>Your data stays on your iPhone.</h2>
+      </div>
+      <ul class="facts">
+        <li>No account</li>
+        <li>No server</li>
+        <li>No iCloud sync</li>
+        <li>No analytics</li>
+        <li>No ads</li>
+        <li>No tracking</li>
+      </ul>
+      <div class="after">
+        <p>Backups, the CSV export and the PDF report are files you create and share yourself, by Files, AirDrop or mail. Apple Health gives the app your daily steps only, and only if you connect it.</p>
+        <p><a href="privacy.html">Read the privacy policy</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="safety">
+        <h2>A companion, not medical advice.</h2>
+        <p>Little Bowl records, reminds and exports. It gives no medical advice, never suggests or changes a dose, and doesn’t judge whether your therapy works. It doesn’t replace your doctor or your dietitian; questions about your therapy belong with them.</p>
+        <p class="emergency">In an emergency, call your local emergency number (911 in the US, 112 in the EU, 144 in Switzerland).</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Help and contact</a><a href="de/" hreflang="de" lang="de">Deutsch</a></nav>
+  <p>Little Bowl (in German: Fünf Bissen) is made by TecMinds GmbH, Neustadtstrasse 8a, 6003 Luzern, Switzerland. <a href="mailto:info@tecminds.ch">info@tecminds.ch</a></p>
+</footer>
+</body>
+</html>
